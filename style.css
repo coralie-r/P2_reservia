@@ -1,2 +1,42 @@
 /* Css */
 /* Définition de la police */
+
+@font-face 
+{
+    font-family: 'Raleway';
+    src: url('polices/Raleway-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Style général */
+
+body
+{
+    font-family: 'Raleway';
+}
+
+#warper
+{
+    width: 90%;
+    margin: auto;
+}
+
+ul
+{
+    list-style: none;
+}
+
+/* Header */
+
+
+
+/* Footer */
+
+footer
+{
+    display: flex;
+    background-color: #F2F2F2;
+    justify-content: space-around;
+}
+

@@ -6,21 +6,21 @@
         <script src="https://kit.fontawesome.com/7bc0871253.js" crossorigin="anonymous"></script>
         <title>Reservia</title>
     </head>
-
-    <header>
-       <div>
-            <img src="images/logo/Reservia.svg" alt="reservia"/>
-            <nav><ul>
-                    <li><a href="#ancre_hébergement">Hébergements</a></li>
-                    <li><a href="#ancre_activités">Activités</a></li>
-                </ul>
-            </nav>
-            <div>S'inscrire</div>
-       </div> 
-    </header>
+    
     <body>
         <div id="warper">
-            <section>
+            <header>
+                <div>
+                     <img src="images/logo/Reservia.svg" alt="reservia"/>
+                     <nav><ul>
+                             <li><a href="#ancre_hébergement">Hébergements</a></li>
+                             <li><a href="#ancre_activités">Activités</a></li>
+                         </ul>
+                     </nav>
+                     <div>S'inscrire</div>
+                </div> 
+             </header>
+            <section id="section_1">
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
                 <div></div> <!-- pour le bouton de recherche-->
@@ -49,7 +49,7 @@
                 </div>
             </section>  
 
-            <section>
+            <section id="section_2">
                 <h2 id="ancre_hébergement">Hébergements à Marseille</h2>
                 <div> <!-- div principale -->
                     <div> <!-- div img + txt * 1/6 -->
@@ -102,7 +102,7 @@
                     </div>
                 </div>
                 <p>Afficher plus</p>
-                <aside>
+                <aside id="aside">
                     <div>
                         <div>
                             <h3>Les plus populaires</h3>
@@ -136,7 +136,7 @@
                 </aside>
             </section> 
 
-            <section>
+            <section id="section_3">
                <h2 id="ancre_activités">Activités à Marseille</h2>
                <div> <!-- div principale -->
                     <div> <!-- div img + titre 1/4-->
@@ -165,7 +165,7 @@
         </div> <!-- fin div warper -->
     </body>
     <footer>
-        <div>
+        <div id="footer_element1">
             <h3>À propos</h3>
             <ul>
                 <li>Fonctionnement du site</li>
@@ -173,14 +173,14 @@
                 <li>Données et confidentialité</li>
             </ul>
         </div>
-        <div>
+        <div id="footer_element2">
             <h3>Nos hébergements</h3>
             <ul>
                 <li>Charte qualité</li>
                 <li>Soumettre votre hôtel</li>
             </ul>
         </div>
-        <div>
+        <div id="footer_element3">
             <h3>Assistance</h3>
             <ul>
                 <li>Centre d'aide</li>
