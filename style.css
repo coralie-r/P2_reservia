@@ -18,19 +18,32 @@ body
 
 #warper
 {
-    width: 90%;
-    margin: auto;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 /* Header */
 
+#sign_in
+{
+    color:#0065FC ;
+    font-weight: bold;
+}
+
 /* Nav */
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 nav ul
 {
     list-style-type: none;
     display: flex;
-    justify-content: flex-end;
+    
 }
 
 nav li
@@ -51,6 +64,45 @@ nav a:hover
     border-top: 2px solid #0065FC;
 }
 
+/* section 1 */
+
+#filter
+{
+    display: flex;
+}
+
+.filters
+{
+    display: flex;
+}
+
+#information
+{
+    display: flex;
+}
+
+/* section 2 */
+
+#main_div_section2
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#section_2
+{
+    background-color:  #F2F2F2;
+    max-width: 1000px;
+}
+
+.img_section2 img
+{
+    width: 300px;
+    height: 160px;
+    object-fit: cover;
+}
 
 /* Footer */
 
