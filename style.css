@@ -22,13 +22,34 @@ body
     margin: auto;
 }
 
-ul
-{
-    list-style: none;
-}
-
 /* Header */
 
+/* Nav */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li
+{
+    margin-right: 50px;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: black;
+
+}
+
+nav a:hover
+{
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+}
 
 
 /* Footer */
