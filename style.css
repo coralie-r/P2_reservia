@@ -91,6 +91,7 @@ nav a:hover
 #information
 {
     display: flex;
+    align-items: baseline;
 }
 
 /* icons */
