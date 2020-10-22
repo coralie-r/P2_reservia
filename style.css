@@ -22,6 +22,16 @@ body
     margin: 0 auto;
 }
 
+.fa-star
+{
+    color: #0065FC;
+}
+
+.grey
+{
+    color: #F2F2F2;
+}
+
 /* Header */
 
 /* Nav */
@@ -83,6 +93,38 @@ nav a:hover
     display: flex;
 }
 
+/* icons */
+
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog, .fa-info-circle
+{
+    color: #0065FC;
+    padding: 0 10px;
+}
+
+/* section 1 */
+
+#filter
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+}
+
+.filters
+{
+    display: flex;
+    align-items: baseline;
+    border: solid #F2F2F2;
+    border-radius: 30px;
+}
+
+.filters p
+{
+    padding: 0 10px;
+}
+
 /* section 2 */
 
 #section_2
@@ -115,7 +157,7 @@ nav a:hover
     border-radius: 30px 30px 0 0;
 }
 
-.card
+.card_section2
 {
     background-color: white;
     padding: 5px;
@@ -129,7 +171,7 @@ nav a:hover
     margin:10px;
 }
 
-/*aside section 2 */
+/* aside section 2 */
 
 aside
 {
@@ -140,6 +182,14 @@ aside
 
 }
 
+#aside_title
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
 .img_aside img
 {
     width: 160px;
@@ -148,12 +198,68 @@ aside
     border-radius: 30px 0 0 30px;
 }
 
+.text_aside
+{
+    margin-left: 10px;
+}
+
 .card_aside
 {
     display: flex;
     background-color: white;
     padding: 5px;
-    margin: 5px;
+    margin: 25px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* section 3 */
+
+.img_section3 img
+{
+    width: 300px;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0;
+}
+
+#img1_section3 img, #img4_section3 img
+{
+    height: 600px;
+}
+
+#img5_section3 img, #img6_section3 img
+{
+    height: 300px;
+}
+
+#img2_section3 img
+{
+    height: 400px;
+}
+
+#img3_section3 img
+{
+    height: 200px;
+}
+
+#section_3
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main_div_section3
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card_section3
+{
+    background-color: white;
+    padding: 5px;
+    margin: 25px;
     border-radius: 30px;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
 }
@@ -165,5 +271,11 @@ footer
     display: flex;
     background-color: #F2F2F2;
     justify-content: space-around;
+    padding: 30px;
 }
 
+footer ul
+{
+    list-style: none;
+    padding: 0;
+}
