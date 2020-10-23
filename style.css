@@ -78,6 +78,32 @@ nav a:hover
 
 /* section 1 */
 
+#search_button
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 300px;
+    border: solid #F2F2F2;
+    border-radius: 30px;
+}
+
+#search
+{
+    background-color: 0065FC;
+    border-radius: 0 20px 20px 0;
+}
+
+#search p
+{
+    color: white;
+}
+
+#search_text p
+{
+    font-weight: bold;
+}
+
 #filter
 {
     display: flex;
