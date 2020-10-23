@@ -22,6 +22,14 @@ body
     margin: 0 auto;
 }
 
+@media all and (max-width: 1024px)
+{
+    #warper
+    {
+        width: auto;
+    }
+}
+
 .fa-star
 {
     color: #0065FC;
@@ -126,6 +134,17 @@ nav a:hover
 {
     color: #0065FC;
     padding: 0 10px;
+    
+}
+
+.round
+{
+    background-color: #DEEBFF ;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
 }
 
 /* section 1 */
