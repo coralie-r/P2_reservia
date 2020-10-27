@@ -91,7 +91,7 @@ nav a:hover
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    max-width: 300px;
+    max-width: 400px;
     border: solid #F2F2F2;
     border-radius: 30px;
 }
@@ -110,6 +110,7 @@ nav a:hover
 #search_text p
 {
     font-weight: bold;
+    margin-left: 55px;
 }
 
 #filter
@@ -126,6 +127,18 @@ nav a:hover
 {
     display: flex;
     align-items: baseline;
+}
+
+#location
+{
+    position: absolute;
+}
+
+.location_icon
+{
+    position: relative;
+    bottom: -15;
+    left: 15;
 }
 
 /* icons */
@@ -164,12 +177,21 @@ nav a:hover
     align-items: baseline;
     border: solid #F2F2F2;
     border-radius: 30px;
+    position: relative;
 }
 
 .filters p
 {
     padding: 0 10px;
-    margin: 5px;
+    margin: 8px 9px 8px 40px;
+    font-weight: bold;
+}
+
+.round
+{
+    position: absolute;
+    top: -3;
+    left: -2;
 }
 
 /* section 2 */
