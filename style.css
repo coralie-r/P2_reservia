@@ -22,15 +22,6 @@ body
     margin: 0 auto;
 }
 
-@media all and (max-width: 375px)
-{
-    #warper
-    {
-        max-width: auto;
-        margin: 0 auto;
-    }
-}
-
 .fa-star
 {
     color: #0065FC;
@@ -219,6 +210,7 @@ nav a:hover
     border-radius: 15px;
 }
 
+
 #main_div_section2
 {
     display: flex;
@@ -355,4 +347,22 @@ footer ul
 {
     list-style: none;
     padding: 0;
+}
+
+/* Media queries */
+
+@media all and (max-width: 375px)
+{
+    #warper
+    {
+        margin: 0;
+    }
+    #section_2warper
+    {
+        background-color:  white;
+    } 
+    footer   
+    {
+        flex-direction: column;
+    }
 }
