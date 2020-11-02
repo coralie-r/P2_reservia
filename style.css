@@ -99,6 +99,7 @@ nav a:hover
 {
     background-color: 0065FC;
     border-radius: 0 20px 20px 0;
+    padding: 1px 5px;
 }
 
 #search p
@@ -223,7 +224,7 @@ nav a:hover
     width: 300px;
     height: 160px;
     object-fit: cover;
-    border-radius: 30px 30px 0 0;
+    border-radius: 15px 15px 0 0;
 }
 
 .card_section2
@@ -231,7 +232,7 @@ nav a:hover
     background-color: white;
     padding: 5px;
     margin: 5px;
-    border-radius: 30px;
+    border-radius: 20px;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -264,7 +265,7 @@ aside
     width: 160px;
     height: 160px;
     object-fit: cover;
-    border-radius: 30px 0 0 30px;
+    border-radius: 15px 0 0 15px;
 }
 
 .text_aside
@@ -278,7 +279,7 @@ aside
     background-color: white;
     padding: 5px;
     margin: 25px;
-    border-radius: 30px;
+    border-radius: 20px;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -288,7 +289,7 @@ aside
 {
     width: 300px;
     object-fit: cover;
-    border-radius: 30px 30px 0 0;
+    border-radius: 15px 15px 0 0;
 }
 
 #img1_section3 img, #img4_section3 img
@@ -296,19 +297,24 @@ aside
     height: 400px;
 }
 
-#img5_section3 img, #img6_section3 img
+#img5_section3 img
 {
-    height: 200px;
+    height: 180px;
+}
+
+#img6_section3 img
+{
+    height:160px;
 }
 
 #img2_section3 img
 {
-    height: 200px;
+    height: 210px;
 }
 
 #img3_section3 img
 {
-    height: 100px;
+    height: 130px;
 }
 
 #main_div_section3
@@ -323,7 +329,7 @@ aside
     background-color: white;
     padding: 5px;
     margin: 25px;
-    border-radius: 30px;
+    border-radius: 20px;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -365,4 +371,36 @@ footer ul
     {
         flex-direction: column;
     }
+    aside h4
+    {
+        font-size: 14px;
+    }
+    aside p
+    {
+        font-size: 12px; 
+    }
+    aside .fa-star
+    {
+        font-size: 12px;
+    }
+    .img_aside img
+    {
+        width: 140px;
+        height: 140px;
+    }
+    #section_2
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+    }
+    #section_3 img  
+    {
+        width: 330px;
+        height: 160px;
+    }
+   .card_section3
+   {
+       height: 230px;
+   }
 }
