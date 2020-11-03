@@ -84,10 +84,6 @@ nav a:hover
 }
 
 /* section 1 */
-.fa-search
-{
-    display: none;
-}
 
 #search_button
 {
@@ -115,6 +111,11 @@ nav a:hover
 {
     font-weight: bold;
     margin-left: 55px;
+}
+
+#filter_warper
+{
+    display: flex;
 }
 
 #filter
@@ -470,5 +471,8 @@ footer ul
     {
         height: initial;
     }
-
+    #filter_warper
+    {
+        display: block;
+    }
 }
