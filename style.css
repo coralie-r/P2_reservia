@@ -113,9 +113,19 @@ nav a:hover
     margin-left: 55px;
 }
 
+#search_icon
+{
+    display: none;
+}
+
 #filter_warper
 {
     display: flex;
+}
+
+#filter_warper p
+{
+    font-weight: bolder;
 }
 
 #filter
@@ -410,7 +420,7 @@ footer ul
 {
     #warper
     {
-        margin: 0;
+        margin: 0 auto;
     }
     #section_2warper
     {
@@ -474,5 +484,13 @@ footer ul
     #filter_warper
     {
         display: block;
+    }
+    #search
+    {
+        display: none;
+    }
+    #search_icon
+    {
+        display: initial;
     }
 }
