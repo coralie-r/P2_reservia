@@ -54,7 +54,7 @@ nav
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 nav ul
@@ -80,7 +80,7 @@ nav a:hover
 {
     color: #0065FC;
     border-top: 2px solid #0065FC;
-    padding-top: 30px;
+    padding-top: 60px;
 }
 
 /* section 1 */
@@ -283,6 +283,7 @@ aside h4
 aside p
 {
     margin-top: 5px;
+    margin-bottom: 52px;
 }
 
 aside .fa-star
@@ -362,6 +363,16 @@ aside .fa-star
     justify-content: space-around;
 }
 
+#main_div_section3 h4
+{
+    margin: 8px 10px;
+}
+
+.another_h4 
+{
+    padding: 2px;
+}
+
 .card_section3
 {
     background-color: white;
@@ -372,7 +383,7 @@ aside .fa-star
 
 .card_section3_height
 {
-    height: 500px;
+    height: 440px;
 }
 
 
@@ -408,6 +419,12 @@ footer ul
     {
         flex-direction: column;
     }
+    aside {
+        max-width: 400px;
+        background-color: #F2F2F2;
+        padding: 30px;
+        border-radius: 0;
+    }
     aside h4
     {
         font-size: 14px;
@@ -424,6 +441,15 @@ footer ul
     {
         width: 140px;
         height: 140px;
+    }
+    .card_aside 
+    {
+        display: flex;
+        background-color: white;
+        padding: 5px;
+        margin: 15px 0px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
     }
     #section_2
     {
