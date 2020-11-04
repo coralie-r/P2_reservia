@@ -83,6 +83,11 @@ nav a:hover
     padding-top: 60px;
 }
 
+#display_375
+{
+    display: none;
+}
+
 /* section 1 */
 
 #search_button
@@ -497,10 +502,55 @@ footer ul
     display: flex;
     align-items: center;
     border-radius: 12px;
-        background-color: 0065FC;
+    background-color: 0065FC;
     }
     .fa-search
     {
         color: white;
+    }
+    .search_icon
+    {
+        position: relative;
+        left:15px;
+    }
+    #nav_big
+    {
+        display: none;
+    }
+    #display_375
+    {
+        display: initial;
+    }
+    .sign_in
+    {
+        color:#0065FC ;
+        font-weight: bold;
+    }
+    #logo_signin
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 15px;
+    }
+    #nav_small a:hover
+    {
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        padding-bottom: 20px;
+    }
+    #nav_small a
+    {
+        border-bottom: 2px solid #F2F2F2;
+        padding-bottom: 20px;
+    }
+    #nav_small
+    {
+        margin-top: 0;
+    }
+    #nav_small ul
+    {
+        display:flex;
+        justify-content: center;
     }
 }
