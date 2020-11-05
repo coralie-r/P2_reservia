@@ -270,7 +270,7 @@ nav a
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .img_section2 img
@@ -398,7 +398,7 @@ aside .fa-star
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #main_div_section3 h4
@@ -414,7 +414,7 @@ aside .fa-star
 .card_section3
 {
     background-color: white;
-    margin: 25px;
+    margin-bottom: 25px;
     border-radius: 20px;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
 }
