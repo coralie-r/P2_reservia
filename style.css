@@ -55,7 +55,6 @@ nav
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 80px;
 }
 
 nav ul
@@ -601,6 +600,7 @@ footer ul
     #section_2warper
     {
         max-width: 100%;
+        margin-top: 40px;
     }
     #section_2
     {
@@ -614,6 +614,7 @@ footer ul
     #card_aside_warper
     {
         display:flex;
+        flex-direction: column
     }
     
 }
@@ -653,3 +654,33 @@ footer ul
         flex-wrap: nowrap;
     }
 }
+@media all and (min-width:1062px) and (max-width:1400px)
+{
+    #main_div_section3
+    {
+        max-width: 980px;
+        margin: 0 auto,
+    }
+} 
+@media all and (min-width:500px) and (max-width:740px)
+{
+    #section_3warper
+    {
+        padding: 0 30px;
+    }
+    #section_3 h2
+    {
+        margin-top: 0;
+    }
+    .card_section3_height
+    {
+        height:480px;
+    }
+} 
+@media all and (min-width:940px) and (max-width:1400px)
+{
+    .img_aside img
+    {
+        height:100%
+    }
+}  
