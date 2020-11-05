@@ -93,7 +93,7 @@ nav a
 {
     display: flex;
     justify-content: space-between;
-    max-width: 400px;
+    max-width: 350px;
     border: solid 1px #F2F2F2;
     border-radius: 30px;
     margin-bottom: 10px;
@@ -114,7 +114,7 @@ nav a
 #search_text p
 {
     font-weight: bold;
-    margin-left: 55px;
+    margin-right: 45px;
 }
 
 #search_icon
@@ -153,6 +153,14 @@ nav a
     position: relative;
     bottom: -15px;
     left: 15px;
+}
+
+#location
+{
+    background-color: #f2f2f2;
+    width: 50px;
+    border-radius: 18px 0 0 18px;
+    padding: 2px;
 }
 
 /* icons */
@@ -674,13 +682,25 @@ footer ul
     }
     .card_section3_height
     {
-        height:480px;
+        height:initial;
+    }
+    .card_section3
+    {
+        margin:10px;
     }
 } 
 @media all and (min-width:940px) and (max-width:1400px)
 {
-    .img_aside img
+    .card_section3
     {
-        height:100%
+        margin:10px;
     }
 }  
+@media all and (min-width:870px) and (max-width:1399px)
+{
+    #card_aside_warper
+    {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
