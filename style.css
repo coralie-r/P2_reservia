@@ -421,7 +421,7 @@ aside .fa-star
 
 .card_section3_height
 {
-    height: 440px;
+    height: 450px;
 }
 
 
@@ -431,8 +431,8 @@ footer
 {
     display: flex;
     background-color: #F2F2F2;
-    justify-content: space-around;
-    padding: 30px;
+    justify-content: space-between;
+    padding: 5px 70px;
 }
 
 footer ul
