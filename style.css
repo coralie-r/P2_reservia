@@ -115,10 +115,17 @@ nav a
     color: white;
 }
 
-#search_text p
+#search_text 
 {
-    font-weight: bold;
-    margin-right: 45px;
+    display:flex;
+}
+
+#city
+{
+    border: 0 solid transparent;
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 16px;
 }
 
 #search_icon
