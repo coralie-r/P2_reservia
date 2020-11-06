@@ -671,7 +671,7 @@ footer ul
     #main_div_section3
     {
         max-width: 980px;
-        margin: 0 auto,
+        margin: 0 auto;
     }
 } 
 @media all and (min-width:500px) and (max-width:740px)
